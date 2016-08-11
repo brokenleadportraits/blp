@@ -1,0 +1,176 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*INDEX STYLES*/
+#img {
+	width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media (max-device-width: 667px) {
+  #img {
+    position: absolute;
+    max-height: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1234px) {
+	#img {
+		position: absolute;
+		max-height: 100%;
+	}
+}
+
+
+#index-header h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 8em;
+	text-align: center;
+	/*color: #666666;*/
+	color: black;
+	position: absolute;
+  top: 25%;
+  width: 100%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+@media (max-device-width: 667px) {
+  #index-header h1 {
+    position: absolute;
+    font-size: 6em;
+    color: black;
+    top: 15%;
+  }
+}
+
+
+#index-header h2 {
+	font-family: 'Galada', sans-serif;
+	font-size: 3em;
+  top: 85%;
+  width: 100%;
+  position: absolute;
+ 	text-align: center;
+ 	-webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #fff;
+}
+@media (max-device-width: 667px) {
+  #index-header h2 {
+    position: absolute;
+    top: 70%;
+  }
+}
+
+
+#about-btn {
+	top: 95%;
+  position: absolute;
+ 	text-decoration: none;
+ 	right: 48%;
+}
+@media (max-device-width: 667px) {
+	#about-btn {
+		top: 90%;
+	  position: absolute;
+	 	right: 40%;
+		}
+}
+
+
+
+/*ABOUT STYLES*/
+#about-img {
+	width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media (max-device-width: 667px) {
+  #about-img {
+    position: absolute;
+    height: 100%;
+    max-height: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1234px) {
+	#about-img {
+		position: absolute;
+		height: 100%;
+		max-height: 100%;
+	}
+}
+
+
+#about-header h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 8em;
+	text-align: center;
+	/*color: #666666;*/
+	color: white;
+	position: absolute;
+  top: 25%;
+  width: 100%;
+}
+@media (max-device-width: 667px) {
+  #about-header h1 {
+    position: absolute;
+    font-size: 6em;
+    color: black;
+    top: 15%;
+  }
+}
+
+
+#about-header h2 {
+	font-family: 'Galada', sans-serif;
+	font-size: 3em;
+  top: 85%;
+  width: 100%;
+  position: absolute;
+ 	text-align: center;
+}
+@media (max-device-width: 667px) {
+  #about-header h2 {
+    position: absolute;
+    top: 70%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1234px) {
+	#about-header h2 {
+		position: absolute;
+		top: 65%;
+	}
+}
+
+
+#about-header p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.6em;
+  top: 95%;
+  position: absolute;
+ 	text-align: center;
+}
+@media (max-device-width: 667px) {
+  #about-header p {
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 1.2em;
+    position: absolute;
+    top: 80%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1234px) {
+	#about-header p {
+		position: absolute;
+		top: 75%;
+	}
+}
+
+
+
+
