@@ -1,0 +1,30 @@
+
+<p id="notice"><%= notice %></p>
+
+<div class="container" id="product-header">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>A Broken Gallery</h1>
+      <h2>Click image to view more information</h2>
+    </div><!-- col -->
+  </div><!-- row -->  
+</div><!-- end container --> 
+<div class="container">  
+  <div class="row">   
+  <% @products.each do |product| %>  
+    <div class="col-sm-4 col-md-4">
+      <a href="#" class="product">
+      <%#= link_to(image_tag(product.image_url, class: "img-responsive", id: "product-photos"), product) %>
+        <%= image_tag(product.image_url, class: "img-responsive") %>
+      </a>
+      <h3><%= product.name %></h3>
+      <p><%= product.description %></p>
+      <%#= link_to 'Show', product %>
+      <%#= link_to 'Edit', edit_product_path(product) %>
+      <%#= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%#= link_to 'New Product', new_product_path %>
+    </div><!-- end thumbnail image -->
+  <% end %><!-- end product loop -->
+  </div><!-- end row -->
+</div><!--  end content container --> 
+

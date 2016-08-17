@@ -172,5 +172,20 @@
 }
 
 
+/*CONTACT STYLES*/
 
+#contact-header {
+  background-image: url('/assets/contact.jpe');
+  padding-top: 100px;
+  background-position: center;
+ /* background-image: 100%;*/
+ background-size: cover;
+ min-height: 100%;
 
+}
+
+#contact-header h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 8em;
+  text-align: center;
+}
