@@ -175,12 +175,12 @@
 /*CONTACT STYLES*/
 
 #contact-header {
-  background-image: url('/assets/contact.jpe');
+/*  background-image: url('/assets/home4.jpg');*/
   padding-top: 100px;
-  background-position: center;
+/*  background-position: center;*/
  /* background-image: 100%;*/
- background-size: cover;
- min-height: 100%;
+/* background-size: cover;
+ min-height: 100%;*/
 
 }
 
@@ -188,4 +188,20 @@
   font-family: 'Anton', sans-serif;
   font-size: 8em;
   text-align: center;
+  width: auto;
+}
+
+#contact-header h2 {
+  font-family: 'Galada', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  width: auto;
+}
+
+#contact-form {
+  margin: 100px;
+}
+
+#contact-form textarea{
+  resize: none;
 }
