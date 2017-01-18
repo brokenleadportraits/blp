@@ -154,6 +154,7 @@
 	font-size: 1.6em;
   top: 95%;
   position: absolute;
+  width: 100%;
  	text-align: center;
 }
 @media (max-device-width: 667px) {
@@ -175,13 +176,7 @@
 /*CONTACT STYLES*/
 
 #contact-header {
-/*  background-image: url('/assets/home4.jpg');*/
   padding-top: 100px;
-/*  background-position: center;*/
- /* background-image: 100%;*/
-/* background-size: cover;
- min-height: 100%;*/
-
 }
 
 #contact-header h1 {
